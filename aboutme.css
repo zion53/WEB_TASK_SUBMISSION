@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: azure;
+}
+h1{
+    text-align: center;
+    background-color: rgb(181, 170, 170);
+    color: white;
+    padding: 2% 0% 2%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+div{
+    background-image: url('/WEBD/images/background.png');
+    
+}
+.container{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: black;
+    
+}
+div h2{
+    color: rgb(133, 85, 85);
+    letter-spacing: 5px;
+
+}
+section button{
+    border-style: dotted;
+    box-shadow: 4px;
+    border-radius: 5px;
+}
+.container img{
+    max-width: 20%;
+    text-align: center;
+    border: 5px;
+    border-radius: 2px;
+    border-color: black;
+    box-sizing: content-box;
+}
+ .grid-container {
+    display: grid;
+    text-align: left;
+    max-width: 20%;
+    text-align: center;
+    border: 5px;
+    border-radius: 2px;
+    border-color: black;
+    box-sizing: content-box;
+    
+}
+.contact{
+    text-align: center;
+    font-size: large;
+}
+.getint{
+    background-color: aqua;
+    border:20px;
+    font-size: xx-large;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    box-sizing: border-box;
+}
